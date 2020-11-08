@@ -14,5 +14,8 @@ public class Main {
             }
         }.start();
         System.out.println("Main class is now FULL!");
+
+        Thread customRunnable = new Thread(new CustomRunnable());
+        customRunnable.start();
     }
 }
