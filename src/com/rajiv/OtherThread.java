@@ -1,4 +1,4 @@
-package com.company;
+package com.rajiv;
 
 public class OtherThread extends Thread {
     @Override
